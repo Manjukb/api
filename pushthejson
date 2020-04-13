@@ -24,6 +24,8 @@ cp ./data.json ./data_prev.json
 
 node sheet-to-json_generic.js
 node raw_data-to-state_district_wise_data.js
+node raw_data-to-state_day_wise_total_count.js
+node sheet-to-json_raw_data.js
 node generate_activity_log.js ${BOT_TOKEN}
 node states_daily_to_csv.js
 
